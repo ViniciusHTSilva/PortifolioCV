@@ -1,0 +1,201 @@
+:root {
+    --green: #628E75;
+    --white: #f9f9f9;
+    --back: #000;
+    
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+#me{
+    text-decoration: none;   
+}
+
+.sidebar{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #161616;
+    transition: all .5s ease;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #053de3;
+    user-select: none;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+ul li:hover a{
+    padding-left: 50px;
+
+}
+
+.sidebar ul a i{
+    margin-right: 16px;
+
+}
+
+#check{
+    display: none;
+
+}
+label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 3px;
+}
+
+
+label #btn{
+    position: fixed;
+    left: 40px;
+    top: 25px;
+    font: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+
+label #cancel{
+    position: fixed;
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    width: 20px;
+    height: 20px;
+    color: #fffefe;
+    padding: 4px 9px;
+    text-align: center;
+    transition: all .5s;
+    background: transparent;
+}
+
+#check:checked ~ .sidebar{
+    left: 0;
+
+}
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+#check:checked ~ label #cancel{
+    left: 210px;
+
+
+}
+
+#check:checked ~ section{
+    margin-left: 250px;
+}
+
+.inicio{
+    background: url(../image/pexels-negative-space-97077.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5s;
+
+ }
+        .dow-cv{
+          position: absolute;
+          left: 200px;
+          top: 500px;
+          width: 300px;
+          height: 70px;
+          background-color: var(--back);
+          color: var(--white);
+          border: 2px solid;
+          transform: skew(-25deg);
+          font-family: poppins;
+          font-size: 20px;
+          cursor: pointer;
+          background-image: url(../image/icons8-download-da-nuvem-24.png);
+          background-repeat: no-repeat;
+          background-size: 30px 30px;
+          background-position: 10px;
+          transition: all .5s;
+        
+        }
+        #check:checked ~ section .dow-cv{
+          margin-left: 250px;
+      }
+        .visua-cv{
+          position: absolute;
+         left: 520px;
+          top: 500px;
+          width: 300px;
+          height: 70px;
+          border: 2px solid;
+          transform: skew(-25deg);
+          font-family: poppins;
+          font-size: 20px;
+          cursor: pointer;
+          transition: all .5s;
+        
+        }
+        #check:checked ~ section .visua-cv{
+          margin-left: 250px;
+      }
+      
+        .dow-cv:hover{
+          cursor: pointer;
+          color: #255784;
+          background: #2196f3;
+    
+          box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+          transition-delay: 0.5s;
+          background-image: url(../image/icons8-download-da-nuvem-24.png);
+          background-repeat: no-repeat;
+          background-size: 30px 30px;
+          background-position: 10px;
+        }
+    
+          
+          .text-inicio{
+            position: absolute;
+            font-size: 40px;
+            color: var(--white);
+            top: 100px;
+            left: 150px;
+            width: 700px;
+            background-color: transparent;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: #fff;
+            border-radius: 10px;
+            
+          
+          }
+          
+          #check:checked ~ section .text-inicio{
+            margin-left: 250px;
+        }
+
+

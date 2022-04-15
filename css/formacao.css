@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.formacao{
+    background: url(../image/pexels-negative-space-97077.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+}
+
+.conteudo-cer{
+    width: 800px;
+position: relative;
+top: 110px;
+left: 150px;
+color: var(--white);
+font-family: poppins;
+font-size: 20px;
+
+}
+
+
+.certificados{
+    position: absolute;
+    left: 150px;
+    margin-top: 230px;
+    width: 300px;
+}
+.cert{
+    margin-top: 20px;
+    
+}
+
+#esconder{
+ 
+    text-align: center;
+
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    font-family: poppins;
+    border-radius: 30px;
+    border-radius: 30px;
+    border: 4px solid black;
+    font-size: 20px;
+    
+}
+#esconder:hover{
+    cursor: pointer;
+    color: #000000;
+    background: #2600ff;
+    box-shadow: 0 0 10px #001eff, 0 0 40px rgb(51, 0, 254), 0 0 80px #001eff;
+  }
+  #check:checked ~ section #esconder{
+    margin-left: 250px;
+}
+
+
+.for{
+        padding: 15px;
+        text-align: center;
+        border-radius: 10px;
+        display: none;
+        font-family: poppins;
+        width: 600px;
+        margin-top: 10px;
+        background-color: transparent;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        color: #fff;
+    }
+    #check:checked ~ section .for{
+        margin-left: 250px;
+    }
+    
+    #esconder2{
+ 
+        text-align: center;
+
+        cursor: pointer;
+        width: 300px;
+        height: 50px;
+        font-family: poppins;
+        border-radius: 30px;
+        border: 4px solid black;
+        font-size: 20px;
+        
+        
+    }
+    #esconder2:hover{
+        cursor: pointer;
+        color: #000000;
+        background: #2600ff;
+        box-shadow: 0 0 10px #001eff, 0 0 40px rgb(51, 0, 254), 0 0 80px #001eff;
+      }
+      #check:checked ~ section #esconder2{
+        margin-left: 250px;
+    }
+
+    .cont-certi{
+
+     
+        padding: 15px;
+        text-align: center;
+        border-radius: 10px;
+        display: none;
+        font-family: poppins;
+        width: 600px;
+        margin-top: 10px;
+        background-color: transparent;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        color: #fff;
+
+        
+        }
+        #check:checked ~ section .cont-certi{
+            margin-left: 250px;
+        }   
+        .list-publi{
+            list-style-type: none;
+             font-family: poppins;
+        }
+
+        .link{
+
+            color: rgb(227, 18, 18);
+
+        }
+
+ 
