@@ -3,6 +3,7 @@
     #menu a{
         left: 10px;
         width: 85px;
+        font-size: 15px;
 
  
     }
@@ -132,13 +133,19 @@
     }
 
     .for{
-        width: 350px;
+        position: absolute;
+        top: 80px;
+        left: 10px;
+        width: 330px;
         height: 100px;
         font-size: 12px;
     }
 
     .cont-certi{
-        width: 350px;
+        position: absolute;
+        top: 250px;
+        left: 10px;
+        width: 330px;
         font-size: 12px;
 
     }
@@ -148,7 +155,16 @@
       
     }
 
+    #esconder{
+        position: absolute;
+        top: 30px;
+    }
 
+    #esconder2 {
+        position: absolute;
+        top: 200px;
+        left: 0px;
+    }
 }
 
 

@@ -21,7 +21,7 @@ font-size: 20px;
 
 .certificados{
     position: absolute;
-    left: 150px;
+    left: 100px;
     margin-top: 230px;
     width: 300px;
 }
@@ -30,10 +30,12 @@ font-size: 20px;
     
 }
 
-#esconder{
- 
-    text-align: center;
 
+#esconder{
+    position: absolute;
+    top: -30px;
+    
+    text-align: center;
     cursor: pointer;
     width: 300px;
     height: 50px;
@@ -56,12 +58,17 @@ font-size: 20px;
 
 
 .for{
+
+
+    position: absolute;
+    top: 20px;
+    left: -80px;
         padding: 15px;
         text-align: center;
         border-radius: 10px;
         display: none;
         font-family: poppins;
-        width: 600px;
+        width: 500px;
         margin-top: 10px;
         background-color: transparent;
         backdrop-filter: blur(10px);
@@ -73,6 +80,9 @@ font-size: 20px;
     }
     
     #esconder2{
+        position: absolute;
+        top: -30px;
+        left: 550px;
  
         text-align: center;
 
@@ -97,14 +107,16 @@ font-size: 20px;
     }
 
     .cont-certi{
-
+        position: absolute;
+        top: 20px;
+        left: 450px;
      
         padding: 15px;
         text-align: center;
         border-radius: 10px;
         display: none;
         font-family: poppins;
-        width: 600px;
+        width: 500px;
         margin-top: 10px;
         background-color: transparent;
         backdrop-filter: blur(10px);
