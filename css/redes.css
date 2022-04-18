@@ -37,6 +37,8 @@
   top: 80px;
  
   height: 100px;
+  width: 500px;
+  left: 400px;  
   background-color: transparent;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);

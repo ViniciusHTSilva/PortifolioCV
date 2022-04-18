@@ -185,8 +185,13 @@
 
     }
     .entre-cont{
+
         top: 130px;
-        font-size: 20px;
+        text-align: center;
+        height: 70px;
+        width: 300px;
+        left: 50px;  
+        font-size: 30px;
     }
     #check:checked ~ section  .entre-cont{
         margin-left: 100px;
